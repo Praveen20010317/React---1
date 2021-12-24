@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import FilterEvenOdd from './components/FilterEvenOdd/FilterEvenOdd'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FilterEvenOdd />
   </React.StrictMode>,
   document.getElementById('root')
 );
